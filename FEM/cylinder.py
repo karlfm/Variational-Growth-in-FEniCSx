@@ -5,8 +5,8 @@
 import sys
 import gmsh
 
-Ri, Ro, H = 1.0, 1.5, 1.0   # inner radius, outer radius, height (axis along z)
-h_mesh = 0.15               # max element size
+Ri, Ro, H = 1.0, 2.0, 1.0   # inner radius, outer radius, height (axis along z)
+h_mesh = 0.3               # max element size
 
 out_file = sys.argv[1] if len(sys.argv) > 1 else "cylinder.msh"
 
